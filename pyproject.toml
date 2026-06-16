@@ -1,0 +1,16 @@
+[project]
+name = "db-project"
+version = "0.1.0"
+description = "培养方案数据库系统 - 西南财经大学数据库课程课题三"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "psycopg2-binary",
+    "requests",
+    "beautifulsoup4",
+    "pandas",
+    "pdfplumber",
+    "python-dotenv",
+]
