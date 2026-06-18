@@ -28,8 +28,8 @@ erDiagram
     }
 
     major_course {
-        INT major_id PK_FK "专业ID"
-        INT course_id PK_FK "课程ID"
+        INT major_id PK "专业ID(FK)"
+        INT course_id PK "课程ID(FK)"
         INT semester "开课学期(1-8)"
     }
 ```
